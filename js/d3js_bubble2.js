@@ -33,7 +33,7 @@ d3.json("/test_data/ip_test1.json", function(error, root) {
     node.append("text")
       .attr("dy", ".3em")
       .style("text-anchor", "middle")
-      .text(function(d) { return d.className.substring(0, d.r / 3); });
+      .text(function(d) { return d.value + "," + d.className.substring(0, d.r / 3); });
 });
 
 // Returns a flattened hierarchy containing all leaf nodes under the root.
