@@ -1,0 +1,11 @@
+Optimizing Grouped Aggregation in Geo-Distributed Streaming Analytics
+
+1. efficient geo-distributed streaming analytics to extract timely
+information.
+
+2. hub-and-spoke model.
+
+windowed grouped aggregation
+
+desiging aggregation algorithms to optimize tw key metrics of any
+geo-distributed streaming analytices: WAN traffic adn staleness
