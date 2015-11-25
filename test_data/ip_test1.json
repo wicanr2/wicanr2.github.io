@@ -1,0 +1,32 @@
+{
+ "name": "ip_range",
+ "children": [
+  {
+   "name": "國內大學",
+   "children": [
+    {"name": "國立成功大學", "size": 798},
+    {"name": "國立東華大學", "size": 52},
+    {"name": "崑山科技大學", "size": 52},
+    {"name": "國立交通大學", "size": 51}
+   ]
+  },
+  {
+   "name": "國外",
+   "children": [
+    {"name": "USA", "size": 36},
+    {"name": "Russia", "size": 7},
+    {"name": "Brazil", "size": 6},
+    {"name": "Canada", "size": 6}
+   ]
+  },
+  {
+   "name": "國外2",
+   "children": [
+    {"name": "France", "size": 1},
+    {"name": "Greek", "size": 1},
+    {"name": "Ireland", "size": 1},
+    {"name": "Norway", "size": 1}
+   ]
+  }
+ ]
+}

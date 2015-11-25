@@ -1,3 +1,4 @@
+function my_d3_bubble() {
 var diameter = 960,
     format = d3.format(",d"),
     color = d3.scale.category20c();
@@ -13,7 +14,7 @@ var svg = d3.select("#main_component")
           .attr("height", diameter)
           .attr("class", "bubble")
             
-d3.json("data.json", function(error, root) {
+d3.json("/test_data/ip_test1.json", function(error, root) {
     if(error) throw error;
     var node = svg.selectAll(".node")
         .data(bubble.nodes(classes(root))
@@ -49,3 +50,4 @@ function classes(root) {
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
+}
